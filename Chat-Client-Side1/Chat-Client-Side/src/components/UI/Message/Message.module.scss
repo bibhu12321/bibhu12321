@@ -1,0 +1,69 @@
+$white: #fff;
+
+.container {
+    display: flex;
+    margin: 5px 0;
+
+    .chatArea {
+        width: 55%;
+
+        .chatBox {
+            border-radius: 10px;
+            background-color: #00800090;
+            border: 1px solid green;
+            padding: 10px;
+            color: $white;
+        }
+
+        .chat_box_response {
+            background-color: #8a2be290;
+            border: 1px solid blueviolet;
+        }
+
+        .user_details {
+            font-size: small;
+            display: block;
+
+            .name {
+                margin-right: 10px;
+                text-transform: capitalize;
+            }
+
+            .time {
+                color: grey;
+            }
+        }
+
+
+        .align_left {
+            text-align: start;
+            color: green;
+        }
+
+        .align_right {
+            text-align: end;
+            color: blueviolet;
+            
+        }
+    }
+}
+
+.align_right {
+    justify-content: end;
+}
+
+.align_left {
+    justify-content: start;
+}
+
+.container {
+
+}
+
+.chatArea {
+
+}
+
+.chatBox {
+
+}

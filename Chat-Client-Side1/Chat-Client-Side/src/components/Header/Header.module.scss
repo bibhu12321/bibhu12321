@@ -1,0 +1,21 @@
+.site_layout_background {
+    background: #fff;
+}
+
+.username {
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 20px;
+    text-transform: capitalize;
+    
+}
+
+.logout {
+    margin-right: 20px;
+    cursor: pointer;
+    color: blue;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
